@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,36 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <img src="assets/logo.png" alt="Logo">
             <h2>Hello,</h2>
             <h1 class="title-green">I am Arilson Florencio</h1>
-            <p>Sou desenvolvedor frontend com 1 ano de experiência, ja trabalhei com HTML, CSS, JavaScript em grandes projetos. Adoro aprender coisas novas e trabalhar em equipe.</p>
+            <p>Sou desenvolvedor frontend com 1 ano de experiência, ja trabalhei com HTML, CSS, JavaScript em grandes
+                projetos. Adoro aprender coisas novas e trabalhar em equipe.</p>
             <button>Entre em contato</button>
         </div>
     </header>
     <nav>
         <img src="assets/logo.png" alt="Logo">
         <ul>
-            <a href="#"><i data-feather="user"></i>Sobre mim</a>
-            <a href="#"><i data-feather="briefcase"></i>Serviços</a>
-            <a href="#"><i data-feather="image"></i>Portfólio</a>
-            <a href="#"><i data-feather="list"></i>Curriculo</a>
-            <a href="#"><i data-feather="send"></i>Contato</a>
+            <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+            <a href="#services"><i data-feather="briefcase"></i>Serviços</a>
+            <a href="#portfolio"><i data-feather="image"></i>Portfólio</a>
+            <a href="#curriculum"><i data-feather="list"></i>Curriculo</a>
+            <a href="#contact"><i data-feather="send"></i>Contato</a>
         </ul>
     </nav>
-    <section class="about-me">
+    <section id="aboutme" class="about-me">
         <div class="container">
             <h1 class="title-green">Sobre mim</h1>
-            <p>Carioca de 24 anos, trabalho como desenvolvedor frontend. Estudo Analise e desenvolvimento de sistemas pela universidade estacio de sa. Desde 2020 trabalho com desenvolvimento frontend usando: HTML, CSS, JS. Atualmente estudo o framework Vue JS. </br>  
-                Sou muito criativo, adoro estudar sobre Programação e desing, novas tecnologias e estou sempre pronto para um no desafio.
+            <p>Carioca de 24 anos, trabalho como desenvolvedor frontend. Estudo Analise e desenvolvimento de sistemas
+                pela universidade estacio de sa. Desde 2020 trabalho com desenvolvimento frontend usando: HTML, CSS, JS.
+                Atualmente estudo o framework Vue JS. </br>
+                Sou muito criativo, adoro estudar sobre Programação e desing, novas tecnologias e estou sempre pronto
+                para um no desafio.
             </p>
         </div>
         <div class="img-container">
@@ -41,7 +47,7 @@
             <img src="assets/profile.png" alt="Ari">
         </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
         <h1 class="title-purple">Serviços</h1>
         <div class="services-container">
             <div class="service-card">
@@ -61,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <h1 class="title-green">Portfólio</h1>
         <div class="portfolio-container">
             <div class="portfolio-card">
@@ -117,8 +123,48 @@
             </div>
         </div>
     </section>
+    <section id="curriculum" class="curriculum">
+        <h1 class="title-green">Currículo</h1>
+        <div class="container">
+            <img class="curriculum-img" src="assets/curriculum-img.png">
+            <div class="content">
+                <div class="curriculum-info">
+                    <span>Nome</span><b>Arilson Florencio</b>
+                    <span>Idade</span><b>25 anos</b>
+                    <span>Formação</span><b>Cursando analise de sistema</b>
+                    <span>Cidade</span><b>Teresopolis - RJ</b>
+                    <span>Telefone</span><b>21 9 2000-1127</b>
+                    <span>Email</span><b>arilsontere18@hotmail.com</b>
+                    <span>Freelance</span><b>Disponivel</b>
+                    <span>Exp</span><b>HTML, CSS, JS, VUE e Cordova</b>
+                    <span>Idiomas</span><b>Inglês (Básico)</b>
+                </div>
+                <button class="secondary-button">
+                    <img src="assets/save.svg">
+                    Baixe meu curriculo completo
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Vamos trabalhar juntos?</h1>
+        <p>Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em
+            contato comigo! </p>
+        <button>Entre em contato</button>
+
+        <div class="social-media">
+            <a href="http://web.whatsapp.com"><img src="assets/whatsapp.png" alt="whatsapp"></a>
+            <a href="http://instagram.com"><img src="assets/Vector.png" alt="Instagram"></a>
+            <a href="http://linkedin.com"><img src="assets/linkedin.png" alt="Linkedin"></a>
+            <a href="http://youtube.com.br"><img src="assets/youtube.png" alt="Youtube"></a>
+        </div>
+    </section>
+    <footer>
+        <p>Made by Arilson Florencio - 2021</p>
+    </footer>
     <script>
         feather.replace()
-      </script>
+    </script>
 </body>
+
 </html>
